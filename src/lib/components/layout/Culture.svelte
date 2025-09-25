@@ -40,7 +40,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="Built for owners." subtitle="The principles that drive every decision we make" />
 
 		<div
 			class="grid gap-(--gap)"

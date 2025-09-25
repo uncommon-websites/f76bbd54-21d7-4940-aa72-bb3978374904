@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Owner power",
+			description: "Independent restaurants deserve the same operational advantages as big chains, without the complexity or cost."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Simple first",
+			description: "Thirty-minute WhatsApp setup, zero learning curve. Technology should work for you, not against you."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Data ownership",
+			description: "Your customer information stays yours. We don't sell your data or lock you into our platform."
 		}
 	];
 </script>
@@ -93,7 +93,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Stop running around your restaurant"
+	subtitle="Start running it instead"
+	description="Join over 10,000 restaurant owners who've reclaimed 15+ hours weekly with AI agents that handle procurement, hiring, and marketing through WhatsApp. Set up in 30 minutes, own your data forever."
+	imageSrc="/generated/image-a-restaurant-owner-in-a-well-worn-apron-.webp"
 />
