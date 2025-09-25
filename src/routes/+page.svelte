@@ -32,54 +32,52 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maria Rodriguez",
+			position: "Owner",
+			company: "Cantina Veloce",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Saved me about 18 hours a week—we finally stopped juggling spreadsheets and supplier texts. My margins improved by 22% in just two months.",
+			image: "/generated/image-maria-rodriguez-a-restaurant-owner-is-ca.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "David Chen",
+			position: "Owner",
+			company: "Golden Dragon Bistro",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We stopped paying commissions and started growing faster. Our repeat orders went up 34% in 3 weeks, and inventory management became effortless.",
+			image: "/generated/image-david-chen-a-restaurant-owner-is-depicte.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Amara Williams",
+			position: "General Manager",
+			company: "Indigo Bean Café",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Hiring used to take me a week. Now it takes a day. The agent even pre-screens candidates and handles all the scheduling through WhatsApp.",
+			image: "/generated/image-amara-williams-a-restaurant-owner-is-sho.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything your restaurant needs"
+	subtitle="Specialized AI agents handle procurement, marketing, and hiring so you can focus on what matters most"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "WhatsApp-only ordering",
+			description: "No apps, no commissions, no complexity. Customers order through WhatsApp while you keep 100% of every sale.",
+			imageSrc: "/generated/image-whatsapp-interface-on-smartphone-restau.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "AI inventory automation",
+			description: "Stop spending 15+ hours weekly on manual tracking. Our AI monitors stock levels and coordinates with suppliers automatically.",
+			imageSrc: "/generated/image-restaurant-kitchen-inventory-being-track.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Smart hiring workflows",
+			description: "Find and onboard quality staff faster with AI-powered screening and automated scheduling that reduces hiring time by 70%.",
+			imageSrc: "/generated/image-restaurant-staff-being-hired-efficiently.webp"
 		}
 	]}
 />
