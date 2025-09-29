@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Run your restaurant. Not around it."
+	subtitle="One place for ordering, hiring, and inventory. Period."
+	imageSrc="/generated/image-a-restaurant-owner-stands-in-the-middle-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by restaurant brands across the industry"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sweetgreen.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/bluebottlecoffee.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/shake-shack.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/panerabread.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
