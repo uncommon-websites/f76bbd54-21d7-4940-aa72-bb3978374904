@@ -14,14 +14,17 @@
 	} = $props();
 </script>
 
-<header class="border-b border-gray-100 dark:border-gray-900" {...rest}>
-	<div class="text-title3 section-px section-py container mx-auto grid gap-16 gap-y-0">
-		<SectionHeader {title} {subtitle} size="lg" />
-		<div class="aspect-video overflow-clip rounded-xl bg-gray-100">
+<header class="bg-black text-white" {...rest}>
+	<div class="section-px section-py container mx-auto grid gap-16 gap-y-0">
+		<div class="text-center">
+			<h1 class="text-display font-black mb-4 text-white">{title}</h1>
+			<p class="text-title2 text-gray-300 font-normal max-w-4xl mx-auto">{subtitle}</p>
+		</div>
+		<div class="aspect-video overflow-clip rounded-xl bg-gray-900 border border-gray-800">
 			<img
 				class="h-full w-full object-cover"
 				src={imageSrc}
-				alt="Diverse group of people collaborating"
+				alt="Independent restaurant owner managing operations with team in modern kitchen"
 			/>
 		</div>
 	</div>
