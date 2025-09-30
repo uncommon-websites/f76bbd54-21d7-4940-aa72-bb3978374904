@@ -26,60 +26,72 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Manual AI eliminates the daily chaos—from inventory to hiring—so you can focus on food and guests. Our AI agents take care of procurement, marketing, and staffing tasks that normally eat up 15+ hours a week, giving independent restaurant owners the operational power of big chains without the complexity or cost."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Sharma",
+			position: "Owner",
+			company: "Masala Kitchen",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"TrueTable saved me 18 hours every week on inventory tracking and supplier coordination. I finally have time to focus on creating new dishes and connecting with customers instead of drowning in spreadsheets.",
+			image: "/generated/image-medium-distance-environmental-portrait-o.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Carlos Rivera",
+			position: "General Manager",
+			company: "Verde Bistro",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our food costs dropped 22% in three months thanks to TrueTable's smart procurement alerts. The WhatsApp interface means my entire team adopted it instantly - no training headaches or resistance.",
+			image: "/generated/image-medium-distance-editorial-portrait-of-a-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Keisha Washington",
+			position: "Owner",
+			company: "Morning Brew Café",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before TrueTable, hiring took weeks and cost us thousands in bad hires. Now I fill positions in 3 days with pre-screened candidates who actually show up. My stress levels have never been lower.",
+			image: "/generated/image-medium-distance-documentary-style-portra.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="AI agents that work around the clock"
+	subtitle="Stop losing 15+ hours weekly to manual restaurant management"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "WhatsApp-only interface",
+			description: "Skip the complex dashboards and manage everything through WhatsApp messages. Your team already knows how to use it.",
+			imageSrc: "/generated/image-a-restaurant-customer-stands-at-the-coun.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Smart inventory tracking",
+			description: "AI agents automatically track stock levels and predict ordering needs. Never run out of ingredients or overstock again.",
+			imageSrc: "/generated/image-a-restaurant-kitchen-scene-showing-staff.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Automated supplier coordination",
+			description: "AI handles vendor negotiations and delivery scheduling while you focus on serving customers and growing revenue.",
+			imageSrc: "/generated/image-a-delivery-person-arrives-at-a-bustling-.webp"
+		},
+		{
+			title: "Commission-free ordering",
+			description: "Keep 100% of your profits with direct customer ordering that bypasses expensive third-party delivery platforms.",
+			imageSrc: "/generated/image-a-restaurant-owner-stands-in-a-back-offi.webp"
+		},
+		{
+			title: "Intelligent hiring assistant",
+			description: "AI screens candidates and schedules interviews automatically. Find qualified staff faster with zero manual effort.",
+			imageSrc: "/generated/image-a-restaurant-owner-is-in-conversation-wi.webp"
+		},
+		{
+			title: "30-minute setup guarantee",
+			description: "Get up and running in under 30 minutes with zero training required. Your entire team can start using TrueTable immediately.",
+			imageSrc: "/generated/image-a-restaurant-team-collaborates-in-a-mode.webp"
 		}
 	]}
 />
