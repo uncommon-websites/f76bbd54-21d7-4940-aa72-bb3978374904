@@ -38,34 +38,38 @@ const legal = {
 	terms: {
 		meta: {
 			title: "Terms of Service",
-			description: "Our terms of service outline the rules and regulations for using our website."
+			description: "Our terms of service outline the rules and regulations for using TrueTable."
 		},
 		content: {
 			lastUpdated: new Date().toISOString(),
 			sections: [
 				{
 					title: "Acceptance of Terms",
-					body: "By accessing this website, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using this site."
+					body: "By using TrueTable, you agree to these terms."
 				},
 				{
-					title: "Use License",
-					body: "Permission is granted to temporarily download one copy of materials for personal, non-commercial viewing only. This license shall automatically terminate if you violate any of these restrictions."
+					title: "Services Provided",
+					body: "TrueTable offers AI-driven tools for restaurants to manage operations, ordering, and communication."
 				},
 				{
-					title: "Disclaimer",
-					body: "The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties including implied warranties of merchantability or fitness for a particular purpose."
+					title: "User Responsibilities",
+					body: "Provide accurate information. Use the service only for lawful business purposes. Keep login details secure."
+				},
+				{
+					title: "Payment & Subscription",
+					body: "Services are billed monthly unless stated otherwise. Fees are non-refundable once the billing cycle starts."
 				},
 				{
 					title: "Limitations",
-					body: "In no event shall we or our suppliers be liable for any damages arising out of the use or inability to use the materials on our website."
+					body: "TrueTable is not responsible for downtime, third-party integrations, or indirect losses."
 				},
 				{
-					title: "Revisions",
-					body: "We may revise these terms at any time without notice. By using this website, you agree to be bound by the current version of these Terms of Service."
+					title: "Termination",
+					body: "You may cancel anytime; access will continue until the end of the billing cycle. We may suspend or terminate accounts violating these terms."
 				},
 				{
 					title: "Governing Law",
-					body: "These terms shall be governed by and construed in accordance with the laws, and you submit to the exclusive jurisdiction of the courts in that location."
+					body: "These terms are governed by Indian law."
 				}
 			]
 		}
