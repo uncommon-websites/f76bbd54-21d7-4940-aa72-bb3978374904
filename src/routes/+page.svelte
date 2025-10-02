@@ -13,7 +13,7 @@
 <Hero
 	title="Run your restaurant. Not around it."
 	subtitle="One place for ordering, hiring, and inventory. Period."
-	imageSrc="/generated/image-a-restaurant-owner-stands-in-the-middle-.webp"
+	imageSrc="/uploaded/1759399975854-1ociu1d.svg"
 	centered={false}
 />
 <LogoScroller
