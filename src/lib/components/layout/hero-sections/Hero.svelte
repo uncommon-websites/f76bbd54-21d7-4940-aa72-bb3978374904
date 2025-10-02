@@ -119,6 +119,7 @@
 				src={imageSrc}
 				alt="Customer"
 				class="size-full object-cover"
+				style="transform: scale(0.7);"
 				onerror={handleImageError}
 			/>
 		</div>
