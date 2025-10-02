@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import TRUAgents from "$lib/components/layout/TRUAgents.svelte";
 </script>
 
 <Hero
@@ -29,6 +30,8 @@
 	title="What we do"
 	text="TrueTable eliminates the daily chaos—from inventory to hiring—so you can focus on food and guests. Our AI agents take care of procurement, marketing, and staffing tasks that normally eat up 15+ hours a week, giving independent restaurant owners the operational power of big chains without the complexity or cost."
 />
+
+<TRUAgents />
 
 <Testimonials
 	testimonials={[
@@ -101,5 +104,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
