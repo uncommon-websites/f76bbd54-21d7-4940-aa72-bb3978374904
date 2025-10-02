@@ -15,13 +15,13 @@
 	imageSrc="/generated/image-a-restaurant-owner-stands-in-the-middle-.webp"
 	centered={false}
 />
-<LogoScroller 
+<LogoScroller
 	label="Trusted by restaurant brands across the industry"
 	logoUrls={[
-		'https://cdn.brandfetch.io/sweetgreen.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/bluebottlecoffee.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/shake-shack.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/panerabread.com/w/400/h/400/logo'
+		"https://cdn.brandfetch.io/sweetgreen.com/w/400/h/400/logo",
+		"https://cdn.brandfetch.io/bluebottlecoffee.com/w/400/h/400/logo",
+		"https://cdn.brandfetch.io/shake-shack.com/w/400/h/400/logo",
+		"https://cdn.brandfetch.io/panerabread.com/w/400/h/400/logo"
 	]}
 />
 
@@ -65,32 +65,38 @@
 	features={[
 		{
 			title: "WhatsApp-only interface",
-			description: "Skip the complex dashboards and manage everything through WhatsApp messages. Your team already knows how to use it.",
+			description:
+				"Skip the complex dashboards and manage everything through WhatsApp messages. Your team already knows how to use it.",
 			imageSrc: "/generated/image-a-restaurant-customer-stands-at-the-coun.webp"
 		},
 		{
 			title: "Smart inventory tracking",
-			description: "AI agents automatically track stock levels and predict ordering needs. Never run out of ingredients or overstock again.",
+			description:
+				"AI agents automatically track stock levels and predict ordering needs. Never run out of ingredients or overstock again.",
 			imageSrc: "/generated/image-a-restaurant-kitchen-scene-showing-staff.webp"
 		},
 		{
 			title: "Automated supplier coordination",
-			description: "AI handles vendor negotiations and delivery scheduling while you focus on serving customers and growing revenue.",
+			description:
+				"AI handles vendor negotiations and delivery scheduling while you focus on serving customers and growing revenue.",
 			imageSrc: "/generated/image-a-delivery-person-arrives-at-a-bustling-.webp"
 		},
 		{
 			title: "Commission-free ordering",
-			description: "Keep 100% of your profits with direct customer ordering that bypasses expensive third-party delivery platforms.",
+			description:
+				"Keep 100% of your profits with direct customer ordering that bypasses expensive third-party delivery platforms.",
 			imageSrc: "/generated/image-a-restaurant-owner-stands-in-a-back-offi.webp"
 		},
 		{
 			title: "Intelligent hiring assistant",
-			description: "AI screens candidates and schedules interviews automatically. Find qualified staff faster with zero manual effort.",
+			description:
+				"AI screens candidates and schedules interviews automatically. Find qualified staff faster with zero manual effort.",
 			imageSrc: "/generated/image-a-restaurant-owner-is-in-conversation-wi.webp"
 		},
 		{
 			title: "30-minute setup guarantee",
-			description: "Get up and running in under 30 minutes with zero training required. Your entire team can start using TrueTable immediately.",
+			description:
+				"Get up and running in under 30 minutes with zero training required. Your entire team can start using TrueTable immediately.",
 			imageSrc: "/generated/image-a-restaurant-team-collaborates-in-a-mode.webp"
 		}
 	]}
