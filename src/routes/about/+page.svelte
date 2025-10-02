@@ -34,10 +34,11 @@
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"I started TrueTable after spending months with independent restaurant owners, watching them fight to keep their businesses running.",
+		"Most were burning 15 to 20 hours a week on manual tasks—inventory, supplier calls, staff scheduling—across a mess of tools and WhatsApp threads.",
+		"What they needed wasn't just more software— they needed something that could actually do the work for them.",
+		"That's why we created TrueTable—AI-powered agents that don't just track tasks but handle them—end to end.",
+		"We believe independent restaurants deserve the same operational firepower as the big chains—without the complexity, cost, or steep learning curve."
 	]}
 />
 
