@@ -53,7 +53,7 @@
 		title = "Get started today",
 		subtitle = "Join now",
 		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://www.unc.mn/image-placeholder.svg",
+		imageSrc = "/uploaded/1759400216092-znwfef6.png",
 		callsToAction = [cta],
 		...rest
 	}: {
