@@ -27,7 +27,7 @@
 
 <Summary
 	title="What we do"
-	text="Manual AI eliminates the daily chaos—from inventory to hiring—so you can focus on food and guests. Our AI agents take care of procurement, marketing, and staffing tasks that normally eat up 15+ hours a week, giving independent restaurant owners the operational power of big chains without the complexity or cost."
+	text="TrueTable eliminates the daily chaos—from inventory to hiring—so you can focus on food and guests. Our AI agents take care of procurement, marketing, and staffing tasks that normally eat up 15+ hours a week, giving independent restaurant owners the operational power of big chains without the complexity or cost."
 />
 
 <Testimonials
