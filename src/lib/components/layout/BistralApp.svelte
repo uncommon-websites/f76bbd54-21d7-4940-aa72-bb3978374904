@@ -61,7 +61,7 @@ Showcases the Bistral manager's app and its core capabilities for streamlining d
 			subtitle="Your forever-available tool for streamlining daily operations"
 		/>
 
-		<div class="mt-16 grid gap-6 md:grid-cols-2">
+		<div class="mt-8 grid gap-4 md:grid-cols-2">
 			{#each features as feature}
 				<Card {...feature} />
 			{/each}

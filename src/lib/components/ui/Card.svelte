@@ -23,10 +23,10 @@
 </script>
 
 <article
-	class="bg-card hover:bg-sidebar-primary-foreground hover:text-primary-900 border-border flex flex-col rounded-(--radius) border p-4 px-5 text-pretty transition duration-300 ease-out lg:p-5 lg:px-6 {customClass}"
+	class="bg-card hover:bg-sidebar-primary-foreground hover:text-primary-900 border-border flex flex-col rounded-(--radius) border p-4 text-pretty transition duration-300 ease-out {customClass}"
 >
 	{#if icon || imageSrc}
-		<div class="mb-8">
+		<div class="mb-4">
 			{#if icon && imageSrc}
 				{@const Icon = icon}
 				<div class="relative">
