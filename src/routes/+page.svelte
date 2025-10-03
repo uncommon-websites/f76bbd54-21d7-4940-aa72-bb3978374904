@@ -8,6 +8,7 @@
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 	import TRUAgents from "$lib/components/layout/TRUAgents.svelte";
+	import BistralApp from "$lib/components/layout/BistralApp.svelte";
 </script>
 
 <Hero
@@ -32,6 +33,8 @@
 />
 
 <TRUAgents />
+
+<BistralApp />
 
 <Testimonials
 	testimonials={[
