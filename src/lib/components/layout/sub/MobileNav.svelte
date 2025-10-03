@@ -6,6 +6,7 @@
 	import Button from "$lib/components/ui/Button.svelte";
 	import IconMenu from "~icons/lucide/menu";
 	import IconChevronRight from "~icons/lucide/chevron-right";
+	import IconFingerprint from "~icons/lucide/fingerprint";
 
 	// Utils
 	import { cta, navigation } from "$lib/navigation";
@@ -111,14 +112,14 @@
 	</ul>
 
 	<div class="section-px section-pb container mx-auto w-full">
-		<Button size="lg" variant="primary" class="z-0 w-full md:w-auto" href={cta.href}
+		<Button size="lg" variant="primary" class="z-0 w-full md:w-auto" href={cta.href} prefix={IconFingerprint}
 			>{cta.label}</Button
 		>
 	</div>
 </div>
 
 <div class="flex items-center justify-end gap-2">
-	<Button size="sm" variant="secondary" href={cta.href}>{cta.label}</Button>
+	<Button size="sm" variant="secondary" href={cta.href} prefix={IconFingerprint}>{cta.label}</Button>
 
 	<Button
 		aria-label="Toggle nav"

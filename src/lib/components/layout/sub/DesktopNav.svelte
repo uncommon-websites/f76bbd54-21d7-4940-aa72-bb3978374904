@@ -7,6 +7,7 @@
 	import Button from "$lib/components/ui/Button.svelte";
 	import { NavigationMenu } from "bits-ui";
 	import DesktopNavDropdown from "./_DesktopNavDropdown.svelte";
+	import IconFingerprint from "~icons/lucide/fingerprint";
 
 	// Utils
 	import { cta, navigation } from "$lib/navigation";
@@ -52,7 +53,7 @@
 		</div>
 	</NavigationMenu.Root>
 
-	<Button size="sm" variant="secondary" href={cta.href} class="ml-1">{cta.label}</Button>
+	<Button size="sm" variant="secondary" href={cta.href} class="ml-1" prefix={IconFingerprint}>{cta.label}</Button>
 </div>
 
 <style lang="postcss">

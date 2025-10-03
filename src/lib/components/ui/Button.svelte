@@ -14,8 +14,8 @@
 		iconOnly?: boolean;
 		hideLabel?: boolean;
 		rounded?: boolean;
-		prefix?: Component;
-		suffix?: Component;
+		prefix?: any;
+		suffix?: any;
 	};
 
 	// Props
