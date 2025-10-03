@@ -47,7 +47,7 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Book Demo",
+	label: "Login",
 	href: "/"
 };
 
