@@ -23,10 +23,10 @@
 </script>
 
 <article
-	class="bg-card hover:bg-sidebar-primary-foreground hover:text-primary-900 border-border flex flex-col rounded-(--radius) border p-4 text-pretty transition duration-300 ease-out {customClass}"
+	class="bg-card hover:bg-sidebar-primary-foreground hover:text-primary-900 border-border flex flex-col rounded-(--radius) border p-2 text-pretty transition duration-300 ease-out {customClass}"
 >
 	{#if icon || imageSrc}
-		<div class="mb-4">
+		<div class="mb-2">
 			{#if icon && imageSrc}
 				{@const Icon = icon}
 				<div class="relative">
@@ -34,14 +34,14 @@
 						src={imageSrc}
 						alt={title}
 						class="w-full object-cover {imageAspect === '9/16' ? 'aspect-[9/16]' : 'aspect-[16/9]'}"
-						style="border-radius: max(2px, calc(var(--radius) - 1rem));"
+						style="border-radius: max(2px, calc(var(--radius) - 0.5rem));"
 					/>
 					<div
-						class="absolute top-3 left-3 bg-white/90 p-1.5 backdrop-blur-sm"
-						style="border-radius: max(2px, calc(var(--radius) - 1.25rem));"
+						class="absolute top-1.5 left-1.5 bg-white/90 p-1 backdrop-blur-sm"
+						style="border-radius: max(2px, calc(var(--radius) - 0.625rem));"
 					>
 						<Icon
-							class="size-4 {iconClass.includes('text-')
+							class="size-3 {iconClass.includes('text-')
 								? iconClass.split(' ').find((c) => c.startsWith('text-'))
 								: 'text-primary'}"
 						/>
@@ -55,16 +55,16 @@
 					src={imageSrc}
 					alt={title}
 					class="w-full object-cover {imageAspect === '9/16' ? 'aspect-[9/16]' : 'aspect-[16/9]'}"
-					style="border-radius: max(2px, calc(var(--radius) - 1rem));"
+					style="border-radius: max(2px, calc(var(--radius) - 0.5rem));"
 				/>
 			{/if}
 		</div>
 	{/if}
 
 	<div class:mt-auto={icon || imageSrc}>
-		<h3 class="text-title3 mb-2">
+		<h3 class="text-sm font-semibold mb-1">
 			{title}
 		</h3>
-		<p class="text-body max-w-prose opacity-60">{description}</p>
+		<p class="text-xs max-w-prose opacity-60">{description}</p>
 	</div>
 </article>
