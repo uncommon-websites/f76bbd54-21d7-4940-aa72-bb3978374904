@@ -118,7 +118,7 @@
 			<img
 				src={imageSrc}
 				alt="Customer"
-				class="size-full object-cover"
+				class="size-full object-contain"
 				onerror={handleImageError}
 			/>
 		</div>
