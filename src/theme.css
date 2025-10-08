@@ -59,7 +59,7 @@
 
 html[data-theme="dark"] {
 	@theme {
-		--color-background: #000000;
+		--color-background: #FFF8F8;
 		--color-foreground: #FFFFFF;
 		--color-card: #111111;
 		--color-card-foreground: #FFFFFF;
