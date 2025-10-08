@@ -6,6 +6,7 @@
 		description?: string;
 		icon?: Component;
 		iconClass?: string;
+		logoUrl?: string;
 		imageSrc?: string;
 		imageAspect?: "16/9" | "9/16";
 		class?: string;
@@ -16,6 +17,7 @@
 		description = "",
 		icon,
 		iconClass = "size-5 text-primary",
+		logoUrl,
 		imageSrc,
 		imageAspect = "16/9",
 		class: customClass = ""
@@ -25,10 +27,9 @@
 <article
 	class="bg-card hover:bg-sidebar-primary-foreground hover:text-primary-900 border-border flex flex-col rounded-(--radius) border p-2 text-pretty transition duration-300 ease-out {customClass}"
 >
-	{#if icon || imageSrc}
+	{#if icon || logoUrl || imageSrc}
 		<div class="mb-2">
-			{#if icon && imageSrc}
-				{@const Icon = icon}
+			{#if (icon || logoUrl) && imageSrc}
 				<div class="relative">
 					<img
 						src={imageSrc}
@@ -40,16 +41,23 @@
 						class="absolute top-1.5 left-1.5 bg-white/90 p-1 backdrop-blur-sm"
 						style="border-radius: max(2px, calc(var(--radius) - 0.625rem));"
 					>
-						<Icon
-							class="size-3 {iconClass.includes('text-')
-								? iconClass.split(' ').find((c) => c.startsWith('text-'))
-								: 'text-primary'}"
-						/>
+						{#if logoUrl}
+							<img src={logoUrl} alt="Logo" class="size-3 object-contain" />
+						{:else if icon}
+							{@const Icon = icon}
+							<Icon
+								class="size-3 {iconClass.includes('text-')
+									? iconClass.split(' ').find((c) => c.startsWith('text-'))
+									: 'text-primary'}"
+							/>
+						{/if}
 					</div>
 				</div>
 			{:else if icon}
 				{@const Icon = icon}
 				<Icon class={iconClass} />
+			{:else if logoUrl}
+				<img src={logoUrl} alt="Logo" class={iconClass} />
 			{:else if imageSrc}
 				<img
 					src={imageSrc}
@@ -61,7 +69,7 @@
 		</div>
 	{/if}
 
-	<div class:mt-auto={icon || imageSrc}>
+	<div class:mt-auto={icon || logoUrl || imageSrc}>
 		<h3 class="text-sm font-semibold mb-1">
 			{title}
 		</h3>
