@@ -56,6 +56,7 @@ Showcases the WhatsApp TRU Manager and its core capabilities for streamlining da
 		<SectionHeader
 			title="WhatsApp TRU Manager"
 			subtitle="Your forever-available tool for streamlining daily operations"
+			iconUrl={whatsappLogo}
 		/>
 
 		<div class="mt-8 grid gap-2 md:grid-cols-2">

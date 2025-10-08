@@ -7,12 +7,14 @@
 		title = "",
 		subtitle = "",
 		oncomplete = () => {},
-		size = "sm"
+		size = "sm",
+		iconUrl = ""
 	}: {
 		title: string;
 		subtitle: string;
 		oncomplete?: () => void;
 		size?: "sm" | "lg";
+		iconUrl?: string;
 	} = $props();
 </script>
 
@@ -22,7 +24,10 @@
 		size === "lg" ? "text-display" : "text-title2"
 	]}
 >
-	<h2>
+	<h2 class="flex items-center gap-3">
+		{#if iconUrl}
+			<img src={iconUrl} alt="" class="h-8 w-8 inline-block" />
+		{/if}
 		<AnimateText text={title} {oncomplete} />
 	</h2>
 	<p class="text-emphasis-dim">
