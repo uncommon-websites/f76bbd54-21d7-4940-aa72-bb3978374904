@@ -83,7 +83,7 @@
 					<div class="flex w-full flex-col gap-2 md:flex-row md:flex-wrap">
 						{#each callsToAction as cta}
 							<Button class="w-full md:w-auto" href={cta.href} variant={cta.variant || "primary"}
-								>{cta.label}</Button
+								>Login</Button
 							>
 						{/each}
 					</div>
