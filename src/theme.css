@@ -60,36 +60,36 @@
 html[data-theme="dark"] {
 	@theme {
 		--color-background: #FFF8F8;
-		--color-foreground: #FFFFFF;
-		--color-card: #111111;
-		--color-card-foreground: #FFFFFF;
-		--color-card-hover: #1a1a1a;
-		--color-popover: #111111;
-		--color-popover-foreground: #FFFFFF;
+		--color-foreground: #000000;
+		--color-card: #FFFFFF;
+		--color-card-foreground: #000000;
+		--color-card-hover: #F5F5F5;
+		--color-popover: #FFFFFF;
+		--color-popover-foreground: #000000;
 		--color-primary: #006DFF;
 		--color-primary-foreground: #FFFFFF;
-		--color-secondary: #333333;
-		--color-secondary-foreground: #FFFFFF;
-		--color-muted: #333333;
-		--color-muted-foreground: #999999;
+		--color-secondary: #F5F5F5;
+		--color-secondary-foreground: #000000;
+		--color-muted: #F5F5F5;
+		--color-muted-foreground: #666666;
 		--color-accent: #006DFF;
 		--color-accent-foreground: #FFFFFF;
 		--color-destructive: #ef4444;
-		--color-border: #333333;
-		--color-input: #1a1a1a;
+		--color-border: #E0E0E0;
+		--color-input: #FFFFFF;
 		--color-ring: #006DFF;
 		--color-chart-1: #006DFF;
 		--color-chart-2: #00A5FF;
 		--color-chart-3: #4285f4;
 		--color-chart-4: #34a853;
 		--color-chart-5: #fbbc04;
-		--color-sidebar: #111111;
-		--color-sidebar-foreground: #FFFFFF;
+		--color-sidebar: #FFFFFF;
+		--color-sidebar-foreground: #000000;
 		--color-sidebar-primary: #006DFF;
 		--color-sidebar-primary-foreground: #FFFFFF;
-		--color-sidebar-accent: #333333;
-		--color-sidebar-accent-foreground: #FFFFFF;
-		--color-sidebar-border: #333333;
+		--color-sidebar-accent: #F5F5F5;
+		--color-sidebar-accent-foreground: #000000;
+		--color-sidebar-border: #E0E0E0;
 		--color-sidebar-ring: #006DFF;
 	}
 }
